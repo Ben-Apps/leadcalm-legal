@@ -89,7 +89,8 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 <h3>3.8 Usage counters</h3>
 <p>To enforce the free and Pro allowances, our server counts per account how many AI requests, voice conversations, read-aloud requests (and characters), live hints and reports you use per day, per minute and per month. These counters contain no content. They are not used for analytics, advertising or tracking. Legal basis: Art. 6(1)(b) GDPR and Art. 6(1)(f) GDPR (our legitimate interest in preventing misuse and controlling costs).</p>
 
-<h3>3.9 Emails and support</h3>
+<h3>3.9 Reporting AI content, emails and support</h3>
+<p>Every piece of AI output in the app can be reported inside the app. When you send a report, we store it in our database with your account: your user ID, the time, where in the app the text appeared (for example chat, voice conversation or review), the reason you chose, your optional note (up to 1,000 characters), the reported AI text (up to 4,000 characters), the situation ID and the app version. The report does not leave the app and is not sent to AI providers. Only we can read reports; your account can send them but not read them back. We use them to review the AI output and to improve our safeguards. Legal basis: Art. 6(1)(f) GDPR (our legitimate interest in safe AI content, and the app store rules that require in-app reporting). If you are not signed in or offline, the app offers the text to copy instead, so you can send it to us by email yourself.</p>
 <p>If you write to us, we use your message and email address to answer you. Legal basis: Art. 6(1)(b) or (f) GDPR.</p>
 
 <h3>3.10 Technical data</h3>
@@ -98,7 +99,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 <h2>4. Service providers</h2>
 <table>
 <tr><th>Provider</th><th>Purpose</th><th>Data</th></tr>
-<tr><td>Supabase (hosting, authentication, database, server functions)</td><td>Account, saving your data to your account, server logic</td><td>Email, password hash, user ID, terms acceptance, your saved app data (3.3), subscription status, usage counters; IP address and user agent in logs. Our project is hosted in the EU (Frankfurt, Germany).</td></tr>
+<tr><td>Supabase (hosting, authentication, database, server functions)</td><td>Account, saving your data to your account, server logic</td><td>Email, password hash, user ID, terms acceptance, your saved app data (3.3), subscription status, usage counters, reports of AI content you send (3.9); IP address and user agent in logs. Our project is hosted in the EU (Frankfurt, Germany).</td></tr>
 <tr><td>Google (Gemini API; for paid use from the EEA: Google Cloud EMEA Limited, Ireland; otherwise Google LLC, USA)</td><td>Written AI chat and suggestions, AI features, live hints, reports</td><td>The content of the AI request, without user ID or email</td></tr>
 <tr><td>ElevenLabs (with Google Gemini as its sub-processor for the partner's replies)</td><td>Voice conversations, reading aloud</td><td>Microphone audio and situation details (counterpart name and role, situation, goal, opening line, practice focus; for your own situations, what you entered) during a voice conversation; the transcript (not audio) to generate replies; device model and operating system; text to be read aloud</td></tr>
 <tr><td>RevenueCat</td><td>Subscription management</td><td>User ID, purchase history, technical request data (IP address, operating system and app version, language, store country)</td></tr>
@@ -109,7 +110,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 <h2>5. How long we keep data</h2>
 <ul>
 <li>Data on your device: until you delete it in the app or delete the app.</li>
-<li>Account, the saved copy of your app data, subscription status and usage counters: until you delete your account (the copy also earlier, if you delete it in the app). Deleting the account removes them from our database.</li>
+<li>Account, the saved copy of your app data, subscription status, usage counters and your reports of AI content: until you delete your account (the copy also earlier, if you delete it in the app). Deleting the account removes them from our database.</li>
 <li>A log of subscription events from RevenueCat keeps only event IDs and results, without your user ID.</li>
 <li>Content sent to Google (Gemini API) and ElevenLabs is not stored by our server. Google keeps Gemini API prompts and responses for 55 days for abuse monitoring (see 3.4). Otherwise, retention on the providers' side follows their terms and our settings with them.</li>
 <li>Deleting your Leadcalm account does not delete the customer record at RevenueCat or the purchase records at Apple or Google, and it does not cancel your subscription.</li>
@@ -127,7 +128,7 @@ footer{margin-top:40px;color:var(--muted);font-size:14px;border-top:1px solid va
 <p>You have the right to access (Art. 15 GDPR), rectification (Art. 16), erasure (Art. 17), restriction of processing (Art. 18), data portability (Art. 20) and to object to processing based on Art. 6(1)(f) (Art. 21). You can withdraw a consent at any time with effect for the future (Art. 7(3)); in the app, withdrawing stops pending and new AI or voice requests, but cannot retract data that was already processed. Send requests to <a href="mailto:ben@creaiter.com">ben@creaiter.com</a>. You also have the right to lodge a complaint with a data protection supervisory authority, for example the Hamburg Commissioner for Data Protection and Freedom of Information.</p>
 
 <h2>8. Children and minors</h2>
-<p>Leadcalm is made for adults in their working life and is not directed at children (see the <a href="terms.html">Terms of Use</a>). We do not knowingly process personal data of children. If you believe a child has created an account, write to <a href="mailto:ben@creaiter.com">ben@creaiter.com</a> and we will delete the account and its data.</p>
+<p>Leadcalm is for people aged 18 and over and is not directed at anyone under 18 (see the <a href="terms.html">Terms of Use</a>). We do not knowingly process personal data of people under 18. If you believe someone under 18 has created an account, write to <a href="mailto:ben@creaiter.com">ben@creaiter.com</a> and we will delete the account and its data.</p>
 
 <h2>9. Changes</h2>
 <p>We update this policy when the app or the law changes. The date at the top shows the current version.</p>
